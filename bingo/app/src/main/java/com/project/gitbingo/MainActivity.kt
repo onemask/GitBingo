@@ -15,8 +15,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupJsoup() {
-
-
         val docu = Jsoup.connect(GITHUB_URL).get()
 
         val response = Jsoup.connect(GITHUB_URL)
